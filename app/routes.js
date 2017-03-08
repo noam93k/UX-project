@@ -6,9 +6,6 @@ app.config(function($routeProvider) {
     .when("/time", {
         templateUrl : "time.html"
     })
-    .when("/explain", {
-        templateUrl : "explain.html"
-    })
     .when("/done", {
         templateUrl : "done.html"
     });
