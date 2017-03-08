@@ -17,11 +17,20 @@
     <body ng-app="ConcertApp" ng-cloak>
         <md-toolbar class="md-info">
             <div class="md-toolbar-tools">
-                <h2 class="md-flex">The Amazing Concert Order Website you have not been hacked</h2>
+                <h2 class="md-flex">The Amazing Concert Order Website</h2>
             </div>
         </md-toolbar>
         <md-content flex layout-padding>
-            <div ng-view id="main_view"></div>
+            <md-card>
+                <md-card-title>
+                    <md-card-title-text>
+                        <span class="md-headline">Place your order</span>
+                    </md-card-title-text>
+                </md-card-title>
+                <md-card-content>
+                    <div ng-view id="main_view"></div>
+                </md-card-content>
+            </md-card>
         </md-content>
     </body>
 </html>
