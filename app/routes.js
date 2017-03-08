@@ -3,13 +3,13 @@ app.config(function($routeProvider) {
     .when("/", {
         templateUrl : "main.htm"
     })
-    .when("/red", {
+    .when("/time", {
         templateUrl : "time.htm"
     })
-    .when("/green", {
+    .when("/explain", {
         templateUrl : "explain.htm"
     })
-    .when("/blue", {
+    .when("/done", {
         templateUrl : "done.htm"
     });
 });
