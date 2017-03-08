@@ -1,4 +1,4 @@
-app.controller("mainController", function($scope) {
+app.controller("mainController", function($scope, $mdDialog) {
     $scope.showAlert = function(ev) {
         $mdDialog.show(
             $mdDialog.alert()
