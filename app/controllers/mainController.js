@@ -1,3 +1,3 @@
-angular.module("ConcertApp", []).controller("mainController", function($scope) {
+app.controller("mainController", function($scope) {
     
 })
